@@ -12,26 +12,26 @@ This project is a multi-page Amazon clone website built using **HTML**, **CSS**,
   - `orders.html` (orders page)  
   - `tracking.html` (order tracking page)
 
-- **Amazon.html (Products Page):**  
+- **amazon.html (Products Page):**  
   - Displays a list of products with images, names, prices, etc.
   - Users can select quantities and add products to the cart
   - When a product is added to the cart, a confirmation message popup appears 
   - Cart icon at the top right updates dynamically to show the current cart quantity (available in all four webpages)
   - Search bar to filter products by name
 
-- **Checkout Page:**  
+- **checkout.html (Checkout Page):**  
   - Shows all products currently in the cart  
   - Users can update quantities or delete products from the cart  
   - Delivery options selection with varying costs  
   - Payment summary section displaying total cost breakdown
   - Place order button that directs user to the Orders Page
 
-- **Orders Page:**  
+- **orders.html (Orders Page):**  
   - Displays all past orders including order date, total cost, and order ID  
   - Option to “Buy Again” for any previous order’s products  
   - Button to navigate to the tracking page for each order
 
-- **Tracking Page:**  
+- **tracking.html (Tracking Page):**  
   - Displays the delivery time, product name, quantity, and image for each order  
   - Includes a visual progress bar indicating delivery stages such as Preparing, Shipped, and Delivered
 
