@@ -1,6 +1,21 @@
 import { cart } from '../data/cart-class.js';
 import { products, loadProductsFetch } from '../data/products.js';
 
+// disclaimer
+document.addEventListener('DOMContentLoaded', () => {
+  const container = document.querySelector('.disclaimer-container');
+  const disclaimerText = document.querySelector('.disclaimer-text');
+  const closeBtn = document.querySelector('.x-btn');
+
+  // Set the disclaimer text
+  disclaimerText.innerText = 'DISCLAIMER: THIS PAGE WAS MADE AS A PERSONAL EDUCATIONAL PROJECT. This is NOT the official site of the company or brand identified on the page. The creator of this page is NOT affiliated with the company or brand in any way. This page is a personal project made in connection with an educational exercise.';
+
+  // Close on click
+  closeBtn.addEventListener('click', () => {
+    container.style.display = 'none';
+  });
+});
+
 loadProductsFetch().then(() => {
   console.log(products);
   renderProductsGrid();
